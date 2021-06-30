@@ -1,4 +1,33 @@
-body {background-color:tan;}
-h1{color:green;}
-
-
+body {
+  background-color: #000000;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container {
+  margin: 10px 30px;
+  padding: 10px 20px;
+  border-radius: 15px;
+  background-color: #ffffff;
+}
+h1 {
+  color: #808080;
+  font-size: 36px;
+  font-weight: bold;
+}
+.main {
+  margin: 0px 15%;
+}
+table tr td:first-child {
+  padding-right: 25px;
+}
+table tr td {
+  padding: 3px;
+}
+button {
+  margin: 10px 0px;
+}
+footer {
+  margin: 10px 0px;
+}
+.hightlight-text {
+  background-color: #ffff00;
+}
